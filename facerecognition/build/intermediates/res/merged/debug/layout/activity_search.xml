@@ -1,0 +1,251 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#252338">
+
+    <LinearLayout
+        android:layout_width="652dp"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical" >
+
+        <org.opencv.javacv.facerecognition.Tutorial3View
+            android:id="@+id/tutorial3_activity_java_surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#fff"
+                android:textSize="21dp"
+                android:background="#D24958"
+                android:id="@+id/buttonCat"
+
+                android:text="@string/SViewAll"
+
+                />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/textViewState"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/SIdle"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_green" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_yellow" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_red" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/toggleButton1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#fff"
+                android:textSize="21dp"
+                android:background="#D24958"
+                android:text="@string/STrain"
+                android:textOff="@string/STrain"
+                android:textOn="@string/SStopTrain"
+                android:checked="false" />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:maxLines="1"
+                android:singleLine="true" >
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <ScrollView
+
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:fillViewport="true"
+            android:layout_marginLeft="40dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/sysid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/i_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/sex"
+                    android:layout_width="wrap_content"
+                    android:textStyle="italic"
+
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/edu"
+                    android:textStyle="italic"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <ToggleButton
+
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#fff"
+                    android:textSize="21dp"
+                    android:background="#D24958"
+
+                    android:id="@+id/buttonBuscar"
+
+                    android:text="  Search  "
+                    android:textOff="@string/SSearch"
+                    android:textOn="@string/SStopSearch"
+                    android:checked="false" />
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#fff"
+
+                    android:textSize="21dp"
+                    android:background="#D24958"
+
+                    android:src="@drawable/ic_stat_camera" />
+
+            </LinearLayout>
+
+            <ToggleButton
+                android:id="@+id/toggleButtonGrabar"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#fff"
+                android:textSize="21dp"
+                android:background="#D24958"
+                android:text="Grabar"
+                android:textOff="Rec"
+                android:textOn="Stop"
+                android:checked="false" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

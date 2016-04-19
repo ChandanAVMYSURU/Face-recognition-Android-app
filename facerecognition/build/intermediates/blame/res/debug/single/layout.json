@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index.xml",
+        "source": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\src\\main\\res\\layout\\activity_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\face_detect_surface_view.xml",
+        "source": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\src\\main\\res\\layout\\face_detect_surface_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\catalog_view.xml",
+        "source": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\src\\main\\res\\layout\\catalog_view.xml"
+    }
+]

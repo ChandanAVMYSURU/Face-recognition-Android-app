@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:2:1-82:12
+	package
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:8:5-43
+MERGED from [face-recognition:openCVLibrary2410:unspecified] C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\build\intermediates\exploded-aar\face-recognition\openCVLibrary2410\unspecified\AndroidManifest.xml:7:5-9:40
+	android:targetSdkVersion
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:8:15-40
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:13:22-78
+supports-screens
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:15:5-20:39
+	android:largeScreens
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:17:9-36
+	android:smallScreens
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:20:9-36
+	android:normalScreens
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:18:9-37
+	android:resizeable
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:19:9-34
+	android:anyDensity
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:16:9-34
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:28:9-57
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:31:9-53
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:34:9-63
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:37:5-83
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:37:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:38:5-88
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:38:30-85
+application
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:40:5-80:19
+	android:label
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:43:9-41
+	android:icon
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:42:9-38
+	android:theme
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:44:9-67
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:41:9-28
+activity#org.opencv.javacv.facerecognition.FdActivity
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:45:9-51:20
+	android:screenOrientation
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:49:13-50
+	android:label
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:48:13-45
+	android:configChanges
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:46:13-39
+activity#org.opencv.javacv.facerecognition.ImageGallery
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:52:9-62:20
+	android:screenOrientation
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:56:13-50
+	android:label
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:55:13-45
+	android:configChanges
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:54:13-63
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:53:13-41
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:57:13-61:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:60:27-73
+activity#org.opencv.javacv.facerecognition.Index
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:63:9-72:20
+	android:screenOrientation
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:66:13-50
+	android:label
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:65:13-45
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:64:13-34
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:67:13-71:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:68:17-69
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:68:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:70:17-77
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:70:27-74
+activity#org.opencv.javacv.facerecognition.Search
+ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:73:9-79:20
+	android:screenOrientation
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:76:13-50
+	android:label
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:75:13-58
+	android:name
+		ADDED from C:\Users\OM c\Downloads\timber_HTML\face-recognition\face-recognition\facerecognition\src\main\AndroidManifest.xml:74:13-35

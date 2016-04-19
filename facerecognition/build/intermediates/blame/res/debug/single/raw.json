@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\raw\\haarcascade_hand_2.xml",
+        "source": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\src\\main\\res\\raw\\haarcascade_hand_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\raw\\haarcascade_hand_1.xml",
+        "source": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\src\\main\\res\\raw\\haarcascade_hand_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\build\\intermediates\\res\\merged\\debug\\raw\\lbpcascade_frontalface.xml",
+        "source": "C:\\Users\\OM c\\Downloads\\timber_HTML\\face-recognition\\face-recognition\\facerecognition\\src\\main\\res\\raw\\lbpcascade_frontalface.xml"
+    }
+]
